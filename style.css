@@ -1,0 +1,206 @@
+body{
+  text-align: center;
+  font-family: "Iceberg", serif;
+  margin: 0;
+}
+
+.hero{
+  background-image: url("https://cbx-prod.b-cdn.net/COLOURBOX41772101.jpg?width=1200&height=1200&quality=70");
+  background-size: cover;
+  padding: 40px 0 70px 0;
+  line-height: 1.5;
+}
+
+.heading{
+  color: #78A9D1;
+  text-shadow: 0 0 5px #1E245B;
+}
+
+.heading:hover{
+  color: #333E85;
+  text-shadow: 0 0 9px white;
+}
+
+.abt{
+  color: #03045e;
+  text-shadow: 0 0 5px #78A9D1 ;
+}
+
+.abt:hover{
+  color: #013a63;
+  text-shadow: 0 0 9px white;
+}
+
+.cta-btn{
+  margin-top: 20px;
+  padding: 12px 25px;
+  border-radius: 15px;
+  font-family: "Iceberg", serif;
+  background: #7364d2;
+  color: #3d0e61;
+  font-size: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.cta-btn:hover{
+  box-shadow: 0 6px 15px #4cc9f0;
+  background: #03045e;
+  color: #4cc9f0;
+  cursor: pointer;
+}
+
+.about{
+  background: linear-gradient(#739BD0, #ffffff);
+  padding: 50px 50px 20px 50px;
+  display: flex;
+  gap: 6px;
+  border-top: 1px dashed #739BD0;
+  border-bottom: 2px dashed #194673;
+  line-height: 2.0;
+}
+
+.about-img{
+  border: 4px solid #194673;
+}
+
+.about-heading:hover{
+   text-decoration: underline;
+}
+
+.activities-section{
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWxnN2ZudGU2eXk4YmN2OTMyMnQzOXczNXVxbnU4cWl5dGNqeGwwayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BDucPOizdZ5AI/giphy.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 50px 50px 50px;
+}
+
+.activities{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px
+}
+
+.activities-heading{
+  text-shadow: 0 0 5px #ffffff;
+  color: #212530;
+}
+
+.activities-u{
+  background: #2f5288;
+  color: #a2acbd;
+}
+
+.activities-img{
+  border: 2px solid ;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease;
+}
+
+.activities-img:hover{
+  transform: scale(1.2);
+}
+
+.testimonial{
+  border-top: 2px dashed #739BD0;
+  background-image: url("https://images.unsplash.com/photo-1522124624696-7ea32eb9592c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3RhcnJ5JTIwbmlnaHR8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-position: center;
+  padding: 1px 0 10px 0;
+  color: #387DAB;
+  text-shadow: 0 0 5px black;
+}
+
+.reviews{
+  display: flex;
+  justify-content: center;
+  border-top: 
+}
+
+.reviews-img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.reviews-card{
+  margin: 20px;
+  width: 500px;
+  height: 300px;
+  background: #2C1935;
+  padding: 20px 10px 10px 10px;
+}
+
+.booking{
+  padding: 15px;
+  background: linear-gradient(lightblue, white);
+  color: #4B4064;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 2px dashed lightblue;
+}
+
+form{
+  font-family: none;
+  line-height: 2.0;
+  color: #50577D;
+  font-weight: bold;
+}
+
+.booking input,
+.booking select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft drop shadow */
+    transition: box-shadow 0.3s ease; /* Smooth effect on focus */
+    width: 80%; /* Limits the width to 80% of the container */
+    max-width: 400px;
+}
+
+.booking input:focus,
+.booking select:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+.form-btn{
+  margin-top: 25px;
+  background: #50577D;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: lightblue;
+  cursor: pointer;
+}
+
+.footer{
+  background: #03045e;
+  font-family: none;
+  padding: 10px 0 20px 0;
+  color: #bde0fe;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .social-link {
+    text-decoration: none;
+    color: #444;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .social-link:hover {
+    transform: scale(1.2);
+    color: #0077b5; 
+  }
