@@ -177,6 +177,7 @@ form{
   font-weight: bold;
   color: lightblue;
   cursor: pointer;
+  border-radius: 9px;
 }
 
 .footer{
